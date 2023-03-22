@@ -13,6 +13,12 @@ main{
     padding:25% 0 25% 0;
     margin:auto;
 }
+section{
+    text-align: center;
+}
+section ul li{
+    display:inline-block
+}
 #logo-image{
     width:6em;
 }

@@ -68,21 +68,21 @@ nav{
   }
   
   #menu > li > a{
-    font-size: 13pt;
-    color:#6C7583;
+    text-decoration: none;
+    color:#5282FD;
     font-weight:400;
     font-family: 'Roboto', sans-serif;
-    letter-spacing:.2px;
-    text-decoration:none;
-    transition:.5s;
+    font-weight:300;
+    font-size:13.5pt;
+    letter-spacing: .2px;
   }
   
   #menu > li > a:hover{
-    color:#0047FF;
+    text-decoration: underline;
+    color:#1B58F5;
   }
   
   /* .font-bold-nav{
     font-weight:400 !important;
     color:#0047FF !important;
   } */
-  

@@ -11,4 +11,8 @@ body{
 main{
     width:67%;
     padding:25% 0 25% 0;
+    margin:auto;
+}
+#logo-image{
+    width:6em;
 }

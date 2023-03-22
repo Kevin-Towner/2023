@@ -16,9 +16,11 @@ main{
 section{
     text-align: center;
 }
-ul li{
+
+.list-item{
     display:inline-block
 }
+
 ul li:nth-child(1){
     padding-right:7.5px;
 }

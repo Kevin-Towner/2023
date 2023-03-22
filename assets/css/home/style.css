@@ -10,7 +10,8 @@ body{
 }
 main{
     width:67%;
-    padding:32vh 0 32vh 0;
+    padding-top:32vh;
+    margin-bottom:32vh;
     margin:auto;
 }
 section{

@@ -17,7 +17,7 @@
   
   @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     footer{
-   
+      position:relative !important;
     }
     footer div{
       width:80%;

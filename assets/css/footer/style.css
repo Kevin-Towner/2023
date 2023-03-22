@@ -7,6 +7,8 @@
     color: #292F37;
   }
   footer {
+    position:absolute;
+    bottom:0;
     width: 100%;
     background-color: #5282FD;
     z-index: 1;

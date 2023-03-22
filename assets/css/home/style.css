@@ -20,7 +20,10 @@ ul li{
     display:inline-block
 }
 ul li:nth-child(1){
-    padding-right:20px;
+    padding-right:8px;
+}
+ul li:nth-child(2){
+    padding-left:8px;
 }
 #logo-image{
     margin:auto;

@@ -10,7 +10,7 @@ body{
 }
 main{
     width:67%;
-    padding:28vh 0 28vh 0;
+    padding:32vh 0 32vh 0;
     margin:auto;
 }
 section{
@@ -35,7 +35,7 @@ h1{
 p{
     font-family: 'Roboto', sans-serif;
     font-weight:300;  
-    font-size:14pt;
+    font-size:12pt;
     margin-bottom:20px;
     color:#25282F;
     line-height:140%
@@ -47,7 +47,7 @@ a{
     font-weight:400;
     font-family: 'Roboto', sans-serif;
     font-weight:400;
-    font-size:13.5pt;
+    font-size:11.5pt;
     letter-spacing: .2px;
 }
 a:hover{

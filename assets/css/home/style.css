@@ -2,7 +2,7 @@
 .container-content-67 {
   display: flex;
   flex-direction: column;
-  padding: 30vh 0 35vh 0;
+  padding: 24vh 0 35vh 0;
   width: 67%;
   margin: auto;
 }
@@ -60,7 +60,7 @@ html body {
 html body main {
   display: flex;
   flex-direction: column;
-  padding: 30vh 0 35vh 0;
+  padding: 24vh 0 35vh 0;
   width: 67%;
   margin: auto;
   animation: fadeInAnimation ease 1.3s;

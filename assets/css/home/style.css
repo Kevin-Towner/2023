@@ -17,14 +17,14 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 30pt;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   color: #565f6d;
 }
 .font-p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14pt;
-  margin-bottom: 40px;
+  font-size: 12.5pt;
+  margin-bottom: 36px;
   color: #6C7583;
   line-height: 160%;
 }
@@ -32,8 +32,8 @@
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14pt;
-  margin-bottom: 40px;
+  font-size: 12.5pt;
+  margin-bottom: 36px;
   color: #6C7583;
   line-height: 160%;
   font-weight: 400;
@@ -74,23 +74,23 @@ html body main section div h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 30pt;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   color: #565f6d;
 }
 html body main section div p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14pt;
-  margin-bottom: 40px;
+  font-size: 12.5pt;
+  margin-bottom: 36px;
   color: #6C7583;
   line-height: 160%;
 }
 html body main #section-1 {
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 html body main #section-1 #logo-image {
   margin: auto;
-  width: 8em;
+  width: 7em;
 }
 html body main #section-2 {
   display: flex;
@@ -108,11 +108,12 @@ html body main #section-2 .button-row a button {
   border: 2px solid #565F6D;
   color: #565F6D;
   padding: 10px 18px 10px 18px;
+  border-radius: 2px;
 }
 html body main #section-2 .button-row a button span {
-  font-weight: 500;
-  font-size: 10.5pt;
-  letter-spacing: 0.33px;
+  font-weight: 400;
+  font-size: 11pt;
+  letter-spacing: 0.3px;
 }
 html body main #section-2 .button-row a button:hover {
   color: #FFF;
@@ -124,5 +125,5 @@ html body main #section-2 .button-row a #button-1 {
   border: 2px solid #2E69FF;
 }
 html body main #section-2 .button-row a #button-1:hover {
-  color: red;
+  color: #fff;
 }

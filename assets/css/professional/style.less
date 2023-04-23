@@ -11,6 +11,11 @@
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
 
+@color-text-h1:#565f6d;
+@color-text-p:#6C7583;
+@color-background:#FCFCFC;
+@color-cta-master:#2E69FF;
+
 
 @keyframes fadeInAnimation {
   0% {
@@ -26,19 +31,16 @@
 
 
 /* - - - -CONTAINERS - - - - - */
-.container-screen_content-67{
+.container-content-67{
   display:flex;
   flex-direction:column;
-  padding:24vh 0 24vh 0;
+  padding:30vh 0 20vh 0;
   width:67%;
   margin:auto;
-  animation: fadeInAnimation ease 1.3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 .container-body-100{
   margin:0 auto;
-  background:@color-secondary;
+  background:@color-background;
   z-index:0;
   min-height:100%;
 }
@@ -72,7 +74,6 @@
         bottom: 0;
         margin: auto;
         position: absolute;
-        background: @color-CTA-hover;
         color: #fff;
         opacity:0;
         transition:.3s;
@@ -395,7 +396,7 @@ ul{
         ul{
           .font-body_text-p;
           font-size:11pt;
-          list-style-position:inside;
+          list-style-position:outside;
           list-style-type: disc;
           margin-top:8px;
           li{

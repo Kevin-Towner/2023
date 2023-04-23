@@ -11,13 +11,13 @@ nav{
     z-index:1;
     align-items:center;
   }
-  
+
   label{
     margin:auto;
     text-align:center;
     display:none;
   }
-  
+
   .barcode{
     margin-left:16.5vw;
     font-size: 24pt;
@@ -25,10 +25,10 @@ nav{
     font-weight:400;
     font-family: 'Libre Barcode 39 Extended', cursive;
   }
-  
+
   #navigation-left{
     align-items:center;
-  
+
   }
   #navigation-right{
     align-items:center;
@@ -44,11 +44,11 @@ nav{
     margin-left:1em;
     display:none;
   }
-  
+
   #toggle{
     display:none;
   }
-  
+
   #menu{
     display:inline-flex;
     margin:0;
@@ -66,22 +66,20 @@ nav{
   #menu > li:nth-child(3){
     margin-right:32px;
   }
-  
+
   #menu > li > a{
     text-decoration: none;
-    color:#25282F;
+    color:#565f6d;
     font-weight:400;
     font-family: 'Roboto', sans-serif;
-    font-weight:300;
-    font-size:12.5pt;
+    font-weight:400;
+    font-size:11pt;
     letter-spacing: .2px;
   }
-  
+
   #menu > li > a:hover{
-    text-decoration: underline;
-    color:#1B58F5;
+    color:#2E69FF;
   }
-  
   /* .font-bold-nav{
     font-weight:400 !important;
     color:#0047FF !important;

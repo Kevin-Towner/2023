@@ -2,33 +2,41 @@
     .container-screen_content-67{
       width:50vw;
     }
+
+    html body main #section-1 #logo-image{
+      width:9em;
+    }
+
+    html body main section div p{
+      font-size:14.5pt;
+    }
+
+    html body main #section-2 .button-row a button span{
+      font-size:13pt;
+    }
   }
-  
-  
-  
-  
+
   @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     h1{
-      font-size:36pt;
       margin:0 0 32px 0;
       line-height: 160%;
     }
-  
+
     h2{
       font-size:26pt;
       margin-bottom:2em;
     }
-  
+
     h3{
       font-size:22pt;
     }
-  
+
     h4{
       font-size:16pt;
     }
-  
+
     .row {
-  
+
     }
 
     main{
@@ -42,14 +50,14 @@
       width: 80%;
       margin: auto;
     }
-  
-  
+
+
     .row-33_33_33-primary {
       grid-template-columns: 1fr;
       grid-gap: 1em;
     }
-  
-  
+
+
     #row-header {
       display: flex;
       flex-direction: column-reverse;
@@ -58,48 +66,47 @@
     #row-header div p {
       margin-bottom: 32px;
     }
-  
+
     #gundam-logo{
       display:none;
     }
-  
+
     #row-header div p {
       width:100%;
       line-height:160%;
       margin-bottom: 32px;
     }
-  
+
     #row-projects{
       width:100%;
     }
-  
+
     #row-projects > .row-33_67-primary{
       grid-template-columns: 1fr;
       grid-gap:1em;
     }
-  
+
     #row-projects > .row-33_67-primary{
       grid-template-columns: 1fr;
       grid-gap:1em;
     }
-  
+
     #row-projects .row-33_67-primary #row-projects-column-right h4{
       border-bottom:none;
       margin:24px 0 24px 0;
       line-height:0;
     }
-  
+
     #row-about{
       grid-template-columns: 1fr;
     }
-  
+
     #row-contact{
         grid-template-columns: 1fr;
     }
-  
+
     #row-contact .image-column img{
       width:70%;
     }
-  
+
   }
-  

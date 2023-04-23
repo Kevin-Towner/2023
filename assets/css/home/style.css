@@ -1,67 +1,128 @@
-
-html{
-    background:#FCFCFC;
+/* - - - -CONTAINERS - - - - - */
+.container-content-67 {
+  display: flex;
+  flex-direction: column;
+  padding: 30vh 0 20vh 0;
+  width: 67%;
+  margin: auto;
 }
-body{
-    margin:0 auto;
-    background:#FCFCFC;
-    z-index:0;
-    min-height:100%;
+.container-body-100 {
+  margin: 0 auto;
+  background: #FCFCFC;
+  z-index: 0;
+  min-height: 100%;
 }
-main{
-    width:67%;
-    padding-top:28vh;
-    margin:auto;
+/* - - - - - FONTS - - - - - - - -*/
+.font-h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+  margin-bottom: 40px;
+  color: #565f6d;
 }
-section{
-    text-align: center;
+.font-p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
+  margin-bottom: 40px;
+  color: #6C7583;
+  line-height: 160%;
 }
-
-.list-item{
-    display:inline-block
+.font-anchor {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
+  margin-bottom: 40px;
+  color: #6C7583;
+  line-height: 160%;
+  font-weight: 400;
+  font-size: 13.5pt;
+  color: #2E69FF;
 }
-
-ul li:nth-child(1){
-    padding-right:7.5px;
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-ul li:nth-child(2){
-    padding-left:7.5px;
+html {
+  background: #FCFCFC;
 }
-h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight:300;
-    font-size:32pt;
-    margin-bottom:40px;
-    color:#6C7583;
+html body {
+  margin: 0 auto;
+  background: #FCFCFC;
+  z-index: 0;
+  min-height: 100%;
 }
-p{
-    font-family: 'Roboto', sans-serif;
-    font-weight:300;  
-    font-size:14pt;
-    margin-bottom:40px;
-    color:#25282F;
-    line-height:160%
+html body main {
+  display: flex;
+  flex-direction: column;
+  padding: 30vh 0 20vh 0;
+  width: 67%;
+  margin: auto;
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
-
-a{
-    text-decoration: none;
-    color:#5282FD;
-    font-weight:400;
-    font-family: 'Roboto', sans-serif;
-    font-weight:400;
-    font-size:12.5pt;
-    letter-spacing: .2px;
+html body main section {
+  text-align: center;
 }
-a:hover{
-    text-decoration: underline;
-    color:#1B58F5;
+html body main section div h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+  margin-bottom: 40px;
+  color: #565f6d;
 }
-
-#logo-image{
-    margin:auto;
-    width:10em;
+html body main section div p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
+  margin-bottom: 40px;
+  color: #6C7583;
+  line-height: 160%;
 }
-#section-1{
-    margin-bottom:40px;
+html body main #section-1 {
+  margin-bottom: 40px;
 }
-
+html body main #section-1 #logo-image {
+  margin: auto;
+  width: 8em;
+}
+html body main #section-2 {
+  display: flex;
+  flex-direction: column;
+}
+html body main #section-2 .button-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin: auto;
+  text-align: center;
+}
+html body main #section-2 .button-row a button {
+  background-color: #fff;
+  border: 2px solid #565F6D;
+  color: #565F6D;
+  padding: 10px 18px 10px 18px;
+}
+html body main #section-2 .button-row a button span {
+  font-weight: 500;
+  font-size: 10.5pt;
+  letter-spacing: 0.33px;
+}
+html body main #section-2 .button-row a button:hover {
+  color: #FFF;
+  background-color: #2E69FF;
+  border: 2px solid #2E69FF;
+}
+html body main #section-2 .button-row a #button-1 {
+  color: #2E69FF;
+  border: 2px solid #2E69FF;
+}
+html body main #section-2 .button-row a #button-1:hover {
+  color: red;
+}

@@ -1,7 +1,8 @@
 @color-text-h1:#565f6d;
 @color-text-p:#6C7583;
 @color-background:#FCFCFC;
-@color-cta-master:#2E69FF;
+@color-cta-master:#5282FD;
+@color-cta-hover:#1B58F5;
 
 
 
@@ -10,7 +11,7 @@
 .container-content-67{
   display:flex;
   flex-direction:column;
-  padding:30vh 0 20vh 0;
+  padding:30vh 0 35vh 0;
   width:67%;
   margin:auto;
 }
@@ -31,7 +32,7 @@
 }
 
 .font-p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
   font-size: 12.5pt;
   margin-bottom: 36px;
@@ -83,7 +84,7 @@ html {
 
         #logo-image {
           margin: auto;
-          width: 7em;
+          width: 9rem;
         }
       }
       #section-2{
@@ -102,21 +103,24 @@ html {
               color:#565F6D;
               padding:10px 18px 10px 18px;
               border-radius:2px;
+              transition:.3s;
               span{
+                font-family: 'Roboto', sans-serif;
                 font-weight:400;
                 font-size:11pt;
-                letter-spacing:.3px;
+                letter-spacing:.2px;
               }
               &:hover{
                 color:#FFF;
-                background-color:#2E69FF;
-                border: 2px solid #2E69FF;
+                background-color:@color-text-h1;
+                border: 2px solid @color-text-h1;
               }
             }
             #button-1{
               color:@color-cta-master;
               border:2px solid @color-cta-master;
               &:hover{
+                background-color:@color-cta-hover;
                 color:#fff;
               }
             }

@@ -57,14 +57,14 @@ nav{
     list-style-type:none;
   }
   #menu > li:nth-child(1){
-    margin-right:32px;
+    margin-right:1.5rem;
     justify-content:space-between;
   }
   #menu > li:nth-child(2){
-    margin-right:32px;
+    margin-right:1.5rem;
   }
   #menu > li:nth-child(3){
-    margin-right:32px;
+    /* margin-right:1.5rem; */
   }
 
   #menu > li > a{

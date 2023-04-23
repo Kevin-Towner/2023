@@ -14,7 +14,8 @@
 @color-text-h1:#565f6d;
 @color-text-p:#6C7583;
 @color-background:#FCFCFC;
-@color-cta-master:#2E69FF;
+@color-cta-master:#5282FD;
+@color-cta-hover:#1B58F5;
 
 
 @keyframes fadeInAnimation {
@@ -31,12 +32,15 @@
 
 
 /* - - - -CONTAINERS - - - - - */
-.container-content-67{
+.container-screen_content-67{
   display:flex;
   flex-direction:column;
-  padding:30vh 0 20vh 0;
+  padding:24vh 0 24vh 0;
   width:67%;
   margin:auto;
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .container-body-100{
   margin:0 auto;
@@ -74,6 +78,7 @@
         bottom: 0;
         margin: auto;
         position: absolute;
+        background: @color-CTA-hover;
         color: #fff;
         opacity:0;
         transition:.3s;
@@ -116,14 +121,14 @@
 
 /* - - - - FONTS - - - - - - */
 
-.font-heading_text-h1{
-  // font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Flex', sans-serif;
-  font-weight:400;
-  font-size:42pt;
-  color:@color-text_2;
-  margin:0 0 36px;
+.font-h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+  margin-bottom: 36px;
+  color: @color-text-h1;
 }
+
 // .font-heading_text-h2{
 //   border-bottom:1px solid #9199A6;
 //   line-height: .1em;
@@ -141,9 +146,9 @@
 
 .font-heading_text-h2{
   // font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight:400;
-  font-size:30pt;
+  font-size:26pt;
   text-align: left;
   color:@color-text_2;
   border-bottom:1px solid @color-light_grey;
@@ -156,7 +161,7 @@
 }
 .font-heading_text-h3{
   // font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight:300;
   font-size:26pt;
   margin: 0 0 18px 0;
@@ -167,7 +172,7 @@
 
 .font-heading_text-h4{
   // font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight:600;
   font-size:20pt;
   letter-spacing:.3px;
@@ -179,7 +184,7 @@
 
 .font-heading_text-h5{
   // font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight:500;
   font-size:16pt;
   letter-spacing:.3px;
@@ -193,7 +198,7 @@
   // font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Slab', serif;
   margin:0;
-  font-size:13pt;
+  font-size:12.5pt;
   line-height:160%;
   font-weight:300;
   color:@color-text_1;
@@ -257,7 +262,7 @@ body{
 }
 
 h1{
-  .font-heading_text-h1;
+  .font-h1;
 }
 
 h2{
@@ -293,26 +298,30 @@ ul{
     }
     a{
       img{
-        width:66%;
+        width:60%;
         float:right;
       }
     }
     .button-row{
       form{
         button{
+          color:@color-cta-master;
+          border:2px solid @color-cta-master;
+
           background-color:@color-CTA;
           border:2px solid @color-CTA;
           border-radius:2px;
-          padding:12px 20px 10px 20px;
+          padding:10px 18px 10px 18px;
           transition:.3s;
           display:inline-flex;
           align-items:center;
           span{
             .font-body_text-p;
+            font-family: 'Roboto', sans-serif;
             margin-bottom:0;
             font-weight:400;
-            font-size:12pt;
-            letter-spacing:.4px;
+            font-size:11pt;
+            letter-spacing:.3px;
             margin-left:0;
             color:@color-secondary;
             img{
@@ -321,10 +330,8 @@ ul{
             }
           }
           &:hover{
-            color:#FFF;
-            background-color:@color-CTA-hover;
-            border: 2px solid @color-CTA-hover;
-            cursor: pointer
+            background-color:@color-cta-hover;
+            color:#fff;
           }
         }
       }
@@ -339,11 +346,11 @@ ul{
   h4{
     font-size:26pt;
     margin-bottom:0;
-    color:@color-CTA-hover;
+    color:@color-cta-master;
   }
   h5{
     font-size:16pt;
-    color:@color-CTA-hover;
+    color:@color-cta-master;
   }
   div{
     p{
@@ -353,7 +360,7 @@ ul{
   .row-100-primary{
     h5{
       font-size:16pt;
-      color:@color-CTA-hover;
+      color:@color-cta-master;
       margin-bottom:8px;
     }
     p{
@@ -364,7 +371,7 @@ ul{
     div{
       h5{
         font-size:16pt;
-        color:@color-CTA-hover;
+        color:@color-cta-master;
         margin-bottom:8px;
       }
       #header-h5{

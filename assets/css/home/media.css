@@ -17,9 +17,10 @@
   }
 
   @media screen and (max-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-    h1{
+    html body main section div h1{
       margin:0 0 32px 0;
-      line-height: 160%;
+      line-height: 125%;
+      font-size:24pt;
     }
 
     h2{

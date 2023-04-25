@@ -29,16 +29,26 @@
   line-height: 160%;
 }
 .font-anchor {
-  text-decoration: none;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   font-size: 12.5pt;
   margin-bottom: 36px;
   color: #6C7583;
   line-height: 160%;
+  text-decoration: none;
   font-weight: 400;
-  font-size: 13.5pt;
   color: #5282FD;
+}
+.font-button {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 12.5pt;
+  margin-bottom: 36px;
+  color: #6C7583;
+  line-height: 160%;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0.2px;
 }
 @keyframes fadeInAnimation {
   0% {

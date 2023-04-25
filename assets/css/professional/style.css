@@ -285,8 +285,8 @@ ul {
 }
 #row-header div .button-row form button {
   color: #5282FD;
-  background-color: #5282FD;
   border: 2px solid #5282FD;
+  background-color: #5282FD;
   border-radius: 2px;
   padding: 10px 18px 10px 18px;
   transition: 0.3s;

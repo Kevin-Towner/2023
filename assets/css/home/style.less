@@ -104,9 +104,6 @@ html {
           text-align: center;
           a{
             button{
-              background-color:#fff;
-              border:2px solid #565F6D;
-              color:#565F6D;
               padding:10px 18px 10px 18px;
               border-radius:2px;
               transition:.3s;
@@ -117,16 +114,24 @@ html {
                 letter-spacing:.2px;
               }
               &:hover{
-                color:#FFF;
-                background-color:@color-text-h1;
-                border: 2px solid @color-text-h1;
+                cursor:pointer;
               }
             }
             #button-1{
-              color:@color-cta-master;
+              color:#fff;
               border:2px solid @color-cta-master;
+              background-color:@color-cta-master;
               &:hover{
                 background-color:@color-cta-hover;
+                color:#fff;
+              }
+            }
+            #button-2{
+              color:#fff;
+              border:2px solid @color-text-p;
+              background-color:@color-text-p;
+              &:hover{
+                background-color:@color-text-h1;
                 color:#fff;
               }
             }

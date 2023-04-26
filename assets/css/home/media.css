@@ -1,3 +1,9 @@
+@media screen  and (min-height:1064px) {
+    main{
+        padding-bottom:45vh
+    }
+  }
+
 @media screen  and (min-width:1824px) {
     .container-screen_content-67{
       width:50vw;

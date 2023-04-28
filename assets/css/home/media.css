@@ -47,4 +47,8 @@
         padding-bottom:20vh;
     }
 
+    html body main #section-2 .button-row{
+      grid-template-columns: 1fr;
+    }
+
   }

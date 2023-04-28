@@ -48,7 +48,7 @@
     }
 
     html body main #section-2 .button-row{
-      grid-template-columns: 1fr;
+      grid-gap:.5em
     }
 
   }
